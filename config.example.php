@@ -2093,7 +2093,7 @@ function check_update(bool $force = false): ?array
     ]);
 
     $response = @file_get_contents(
-        'https://api.github.com/repos/mex13rs/roweryexpert/releases/latest',
+        'https://api.github.com/repos/zibibade/roweryexpert/releases/latest',
         false,
         $context
     );
@@ -2176,7 +2176,7 @@ function do_update(): array
     ]);
 
     $response = @file_get_contents(
-        'https://api.github.com/repos/mex13rs/roweryexpert/releases/latest',
+        'https://api.github.com/repos/zibibade/roweryexpert/releases/latest',
         false,
         $context
     );
